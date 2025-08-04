@@ -35,3 +35,7 @@ function which ($command) {
   Get-Command -Name $command -ErrorAction SilentlyContinue |
     Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
 }
+# Starship Load
+#$env:STARSHIP_CONFIG = "$env:USERPROFILE\.config\starship\starship.toml"
+
+#Invoke-Expression (&starship init powershell)
