@@ -2,7 +2,7 @@
 
 mkdir .config\powershell\user_config.ps1
 
-# Redirigir el archivo de $PROFILE por default a nueva ruta.
+# Redirigir el archivo de $PROFILE.CurrentuserCurrentHost por default a nueva ruta.
 
 . $env:USERPROFILE\.config\powershell\user_profile.ps1
 
