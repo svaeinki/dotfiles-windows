@@ -4,7 +4,7 @@ mkdir .config\powershell\user_config.ps1
 
 # Redirigir el archivo de $PROFILE.CurrentuserCurrentHost por default a nueva ruta.
 
-". $env:USERPROFILE\.config\powershell\user_profile.ps1"
+# . $env:USERPROFILE\.config\powershell\user_profile.ps1
 
 # Copir y pegar .config en archivo nuevo
 # Instalar todo lo demas
